@@ -1,0 +1,19 @@
+app:
+  name: swimlane-app
+  replicaCount: 1
+  image:
+    repository: swimlane-app
+    tag: v10
+    pullPolicy: Never
+  port: 3000
+
+mongodb:
+  image: mongo:6
+  port: 27017
+  database: swimlane
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 3000
+  nodePort: 30080
