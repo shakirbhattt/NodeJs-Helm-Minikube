@@ -37,6 +37,7 @@ Node.js + MongoDB app containerized with Docker and deployed to Kubernetes (Mini
        ├── values.yaml
        └── templates/
            ├── mongodb-deployment.yaml
+           ├── mongodb-pvc.yaml
            ├── mongodb-service.yaml
            ├── deployment.yaml
            ├── service.yaml
