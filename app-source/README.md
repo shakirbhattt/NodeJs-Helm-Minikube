@@ -25,21 +25,21 @@ Node.js + MongoDB app containerized with Docker and deployed to Kubernetes (Mini
 ## Repo Structure
 
 ```
-├── Dockerfile
-├── helm/
-│   └── swimlane-app/
-│       ├── Chart.yaml
-│       ├── values.yaml
-│       └── templates/
-│           ├── mongodb-deployment.yaml
-│           ├── mongodb-service.yaml
-│           ├── deployment.yaml
-│           └── service.yaml
 ├── Screenshots/
 │   └── Screenshot 2026-02-25 at 5.45.03 PM.png
 │   └── Screenshot 2026-02-25 at 5.45.28 PM.png
 │   └── Screenshot 2026-02-25 at 5.49.15 PM.png
-└── README.md
+├── app-source
+    └── Dockerfile
+    └── helm/
+    └── swimlane-app/
+       ├── Chart.yaml
+       ├── values.yaml
+       └── templates/
+           ├── mongodb-deployment.yaml
+           ├── mongodb-service.yaml
+           ├── deployment.yaml
+           ├── service.yaml
 ```
 
 ## Deploy Steps
