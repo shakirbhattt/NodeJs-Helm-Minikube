@@ -1,4 +1,4 @@
-# Swimlane DevOps - Minikube
+# NodeJs DevOps - Minikube
 
 Node.js + MongoDB app containerized with Docker and deployed to Kubernetes (Minikube) using Helm.
 
