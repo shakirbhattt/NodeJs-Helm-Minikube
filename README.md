@@ -6,10 +6,7 @@ Node.js + MongoDB app containerized with Docker and deployed to Kubernetes (Mini
 
 ```
 
-├── Screenshots/
-│   └── Screenshot 2026-02-25 at 5.45.03 PM.png
-│   └── Screenshot 2026-02-25 at 5.45.28 PM.png
-│   └── Screenshot 2026-02-25 at 5.49.15 PM.png
+
 ├── app-source
     └── Dockerfile
     └── helm/
